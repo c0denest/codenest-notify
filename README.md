@@ -1,8 +1,14 @@
 <b>Fivem - Nopixel Inspired Notify</b>
 
-### 🤍 Prewiev
+## Prewiev
 
 [![Discord](https://media.discordapp.net/attachments/1138515615745851434/1138520021786705951/image.png?width=539&height=107)](https://discord.gg/NC3NxVWKxk)
+
+### Class
++ success
++ warning
++ error
++ info
 
 ## QBCore Setup
 ### qb-core > client > functions.lua find
@@ -16,8 +22,11 @@ function QBCore.Functions.Notify
 function QBCore.Functions.Notify(text, texttype, length)
     exports['codenest-notify']:Notify(text, texttype, length)
 end
+
 ```
 <img  src="https://media.discordapp.net/attachments/1138051863061725245/1144440134884921496/image.png?width=339&height=303">
+
+
 
 <br>
 
