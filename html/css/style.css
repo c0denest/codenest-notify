@@ -1,0 +1,57 @@
+body {
+    background-color: transparent !important;
+}
+
+.template, .notification {
+    display: none;
+}
+
+.notif-container {
+    position: absolute;
+    margin-left:68%;
+    width:30%;
+    height:15%;
+    margin-top:1%;
+    display: block;
+    padding:1px;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.notification {
+    color: #ffff;
+    position: relative;
+    padding:8px;
+    width: fit-content;
+    border-radius:4px;
+    margin: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size:12px;
+    font-weight: bold;
+    float: left;
+    background-color: rgba(51, 112, 165, 0.7);
+    border-right: 1px solid rgba(25,56,82,0.5);
+    border-bottom: 3px solid rgba(25,56,82,0.5);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+
+.success {
+    background-color: rgba(21, 100, 15, 0.7);
+    border-color: rgba(10, 50, 7, 0.5)
+}
+
+.primary {
+    background-color: rgba(51, 70, 195, 0.7);
+    border-color: rgba(26, 35, 98, 0.5);
+}
+
+.error {
+    background-color: rgba(147, 62, 47, 0.7);
+    border-color: rgba(73, 31, 23, 0.5);
+}
+.uwu {
+    background-color: rgba(23, 23, 23, 90%);
+    border-radius: 13px;
+    box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
+    border-left: 5px solid #ed74f1
+}
