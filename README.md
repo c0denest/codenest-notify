@@ -4,6 +4,7 @@
 
 [![Discord](https://media.discordapp.net/attachments/1138515615745851434/1138520021786705951/image.png?width=539&height=107)](https://discord.gg/NC3NxVWKxk)
 
+## QBCore Setup
 ### qb-core > client > functions.lua find
 
  ```lua
